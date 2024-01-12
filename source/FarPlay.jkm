@@ -1,0 +1,23 @@
+[Common Keys]
+Shift+Control+Z=test
+Shift+Control+o=SoloingUsers
+Shift+Control+u=FocusUsersControl
+Alt+1=ReadChatHistory
+Alt+2=ReadChatHistory
+Alt+3=ReadChatHistory
+Alt+4=ReadChatHistory
+Alt+5=ReadChatHistory
+Alt+6=ReadChatHistory
+Alt+7=ReadChatHistory
+Alt+8=ReadChatHistory
+Alt+9=ReadChatHistory
+Alt+0=ReadChatHistory
+Shift+Control+P=PingAndJitter
+Shift+Control+M=MutingUsers
+Shift+Control+C=MakeColorReport
+Shift+Control+RightArrow=NextUser
+Shift+Control+LeftArrow=PriorUser
+Shift+Control+NumPad5=SpeakCurrentUserName
+Shift+Control+D=FocusOnDevices
+Shift+Control+S=FocusOnSession
+Shift+Control+T=FocusOnTools

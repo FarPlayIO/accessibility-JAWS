@@ -1,0 +1,162 @@
+:function BeepError
+:SearchRank 1
+
+:function LogChatMessage
+:Returns int 1 if we spoke a chat message
+:SearchRank 1
+:Param string/sMessage No Description
+
+:function GetBoundingRect
+:SearchRank 1
+:Param object/oStart No Description
+:Param int/l/ByRef No Description
+:Param int/t/ByRef No Description
+:Param int/r/ByRef No Description
+:Param int/b/ByRef No Description
+
+:function AnnounceControlName
+:Returns int 1 if we handled it and found a name
+:SearchRank 1
+:Param handle/hFocus handle of focus window
+
+:function ExtractUserName
+:Returns string user name
+:SearchRank 1
+:Param string/sName name and location,  comman separated
+
+:function FindUserLevel
+:Returns object located UIA object
+:SearchRank 1
+:Param int/index No Description
+
+:function InPersonalMixPanel
+:Returns int 1 if focus is in there, 0 if not
+:SearchRank 1
+:Param object/oFocus No Description
+
+:function ThisIsAUser
+:Returns int 1 if this is a user
+:SearchRank 1
+:Param string/UserName user name
+
+:script NextUser
+:SearchRank 1
+:Synopsis Move to the next user's volume fader
+
+:script PriorUser
+:SearchRank 1
+:Synopsis Move to the prior user's personal mix volume slider
+
+:function MoveToNextUser
+:Returns int 1 if successful,  0 if not
+:SearchRank 1
+
+:function GetListOfUsers
+:Returns string vertical bar separated listof user names,  colon,  and stauts
+:SearchRank 1
+:Param int/includeStatus No Description
+:Param int/userCount/ByRef No Description
+
+:function SoloThisUser
+:SearchRank 1
+:Param int/userIndex 1-based index to this user
+
+:function FocusThisUserObject
+:SearchRank 1
+:Param object/oUser user object
+
+:function FocusThisUser
+:SearchRank 1
+:Param int/userIndex user index,  1 is the first user
+
+:script SpeakCurrentUserName
+:SearchRank 1
+:Synopsis speak the currently focused User
+
+:function GetCurrentUserName
+:Returns string username if any
+:SearchRank 1
+
+:function FindThisUser
+:Returns object the top level object for this user,  or null
+:SearchRank 1
+:Param string/userName userName
+
+:function SpeakLevelThisUser
+:SearchRank 1
+:Param string/username username,  blank if current
+
+:script FocusOnDevices
+:SearchRank 1
+:Synopsis Focus on the device selecitons
+
+:script FocusOnSession
+:SearchRank 1
+:Synopsis Focus on the session controls
+
+:script FocusOnTools
+:SearchRank 1
+:Synopsis focus on tools
+
+:function FocusPanel
+:Returns object object
+:SearchRank 1
+:Synopsis focus on one of the  utility panels
+:Param string/PanelName No Description
+:Param string/FocusableClass class of first focusable element
+
+:script test
+:SearchRank 1
+
+:function GetColorAtLocation
+:Returns int color as integer
+:SearchRank 1
+:Param int/l pixels from left of main windiw
+:Param int/t pixels down from top of main window
+
+:script FindUnsoloedUser
+:SearchRank 1
+:Synopsis Find the first unsoloed user
+
+:script FocusUsersControl
+:SearchRank 1
+:Synopsis Focus on the controls for a particular user
+
+:script ReadChatHistory
+:SearchRank 1
+:Synopsis Read Chat history alt+1 is newest message
+
+:script PingAndJitter
+:SearchRank 1
+
+:function ToggleMute
+:SearchRank 1
+:Param int/userIndex user index 1-based
+
+:function toggleSolo
+:SearchRank 1
+:Param int/userIndex userindex
+
+:function PopulateList
+:SearchRank 1
+
+:script MutingUsers
+:SearchRank 1
+:Synopsis Mute List Open
+:Description Opens a list of users so you can review and toggle their mute statuses
+
+:script SoloingUsers
+:SearchRank 1
+:Synopsis Solo List Open
+:Description Opens a list of users so you can review and toggle their solo statuses
+
+:script MakeColorReport
+:SearchRank 1
+
+:function Traverse
+:Returns object destination object,  or null
+:SearchRank 1
+:Synopsis traverse a path in the UIA object tree
+:Param object/oStart starting object
+:Param string/sPath path string
+

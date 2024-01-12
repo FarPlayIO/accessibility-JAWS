@@ -1,0 +1,53 @@
+:function uInit
+:SearchRank 1
+
+:function uGetFocus
+:Returns object focused object
+:SearchRank 1
+
+:function ufirstChild
+:Returns object first child object
+:SearchRank 1
+:Param object/oStart parent object
+
+:function uParent
+:Returns object parent object
+:SearchRank 1
+:Param object/oStart child object
+
+:function uNextSibling
+:Returns object next object
+:SearchRank 1
+:Param object/oStart starting object
+
+:function uPriorSibling
+:Returns object prior sibling
+:SearchRank 1
+:Param object/oStart starting object
+
+:function uLastSibling
+:Returns object object
+:SearchRank 1
+:Param object/oStart starting object
+
+:function uObjectAtPoint
+:Returns object object at current cursor
+:SearchRank 1
+
+:function uGetValuePattern
+:Returns object No Return Description
+:SearchRank 1
+:Param object/oStart No Description
+
+:function uSetValue
+:Returns int 1 if successful
+:SearchRank 1
+:Param object/oValue value pattern object
+:Param string/sValue value string
+
+:function uTraverse
+:Returns object located object,  or null
+:SearchRank 1
+:Param object/oStart No Description
+:Param string/sPath No Description
+

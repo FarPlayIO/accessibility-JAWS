@@ -1,0 +1,4 @@
+[OutputModes]
+HELP_BALLOON=1|1|2|Help Balloon
+CONTROL_DESCRIPTION=0|0|2|Control Description
+CONTROL_GROUP_NAME=1|2|2|Control Group Name
