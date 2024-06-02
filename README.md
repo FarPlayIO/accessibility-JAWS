@@ -1,6 +1,6 @@
 # accessibility-JAWS
 
-Scripts for the JAWS screen reader. Generously shared by Ryan Fleury (ryan.fleury@gmail.com) . Written by Jim Snowbarger (snowman@snowmanradio.com).
+Scripts for the JAWS screen reader. Generously shared by Ryan Fleury (ryan.fleury@gmail.com). Written by Jim Snowbarger (snowman@snowmanradio.com).
 
 ## Installation:
 
