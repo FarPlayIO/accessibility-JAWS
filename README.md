@@ -1,6 +1,6 @@
 # accessibility-JAWS
 
-Scripts for the JAWS screen reader. Generously shared by Ryan Fleury (ryan.fleury@gmail.com). Written by Jim Snowbarger (snowman@snowmanradio.com).
+These scripts for using the JAWS screen reader with FarPlay were generously shared by Ryan Fleury (ryan.fleury@gmail.com) and written by Jim Snowbarger (snowman@snowmanradio.com).
 
 ## Installation:
 
